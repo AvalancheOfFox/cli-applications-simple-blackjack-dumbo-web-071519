@@ -57,6 +57,7 @@ def runner
   else 
     handTotal = hit?(handTotal)
     display_card_total(handTotal)
+  end
 end
 
 end
