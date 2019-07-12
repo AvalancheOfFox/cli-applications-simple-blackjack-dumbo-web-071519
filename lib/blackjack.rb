@@ -55,7 +55,8 @@ def runner
   if handTotal > 21
     end_game(handTotal)
   else 
-    hit?
+    handTotal = hit?(handTotal)
+    
 end
 
 end
