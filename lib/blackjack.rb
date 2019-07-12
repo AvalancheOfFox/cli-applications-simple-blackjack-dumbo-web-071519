@@ -53,7 +53,9 @@ def runner
   welcome
   handTotal = initial_round
   if handTotal > 21
-    end_game
+    end_game(handTotal)
+  else 
+    hit?
 end
 
 end
