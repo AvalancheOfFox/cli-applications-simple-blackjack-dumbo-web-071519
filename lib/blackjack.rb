@@ -56,7 +56,7 @@ def runner
     end_game(handTotal)
   else 
     handTotal = hit?(handTotal)
-    
+    display_card_total(handTotal)
 end
 
 end
