@@ -24,7 +24,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  hand = deal_card + deal_card
+  hand = deal_card() + deal_card()
   puts hand
 end
 
