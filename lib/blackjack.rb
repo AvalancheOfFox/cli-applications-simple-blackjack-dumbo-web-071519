@@ -32,7 +32,7 @@ def hit?
   prompt_user
   input = get_user_input
   if input == 'h'
-    deal_card
+    card_total+= deal_card
     return card_total
   end
   if input == 's'
